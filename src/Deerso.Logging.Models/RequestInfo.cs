@@ -11,6 +11,6 @@ namespace Deerso.Logging.Models
         public string RefererUrl { get; set; } 
         public string IpAddress { get; set; }
         public string OriginRefererUrl { get; set; }
-        public string IsLocal { get; set; }
+        public bool IsLocal { get; set; }
     }
 }
