@@ -9,5 +9,6 @@ namespace Deerso.Logging.Models
         public decimal OrderAmount { get; set; }
         public string IpAddress { get; set; }
         public string OriginRefererUrl { get; set; }
+        public bool GuestCheckout { get; set; }
     }
 }
